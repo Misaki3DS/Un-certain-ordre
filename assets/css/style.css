@@ -9,6 +9,10 @@ a {
     font-weight: bold;
 }
 
+iframe {
+    margin-right: 0px;
+}
+
 h1 {
     color: cyan;
     text-align: center;
