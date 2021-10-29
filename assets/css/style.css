@@ -2,15 +2,12 @@
 
 body {
     background-color: #444444;
+    min-width: 420;
 }
 
 a {
     color: yellow;
     font-weight: bold;
-}
-
-iframe {
-    margin-right: 0px;
 }
 
 h1 {
