@@ -41,20 +41,6 @@ jQuery(function ($) {
 });
 
 jQuery(function ($) {
-    document.getElementById("toolIllLegal_bt").addEventListener("click", myfunction);
-    function myfunction() {
-        window.location.href="./p1-1-2-1.html";
-    }
-});
-
-jQuery(function ($) {
-    document.getElementById("toolIllLegal2_bt").addEventListener("click", myfunction);
-    function myfunction() {
-        window.location.href="./p1-1-2-1.html";
-    }
-});
-
-jQuery(function ($) {
     document.getElementById("toolAccel_bt").addEventListener("click", myfunction);
     function myfunction() {
         window.location.href="./p1-1-3.html";
