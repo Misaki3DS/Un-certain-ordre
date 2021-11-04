@@ -17,6 +17,13 @@ iframe {
     height: auto;
 }
 
+.fullhd {
+    aspect-ratio: 20/9; 
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+}
+
 h1 {
     color: cyan;
     text-align: center;
