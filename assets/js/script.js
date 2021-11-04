@@ -1,3 +1,8 @@
+
+$(function(){
+      $('iframe').responsiveIframe();
+    });
+
 jQuery(function ($) {
     document.getElementById("toolStart_bt").addEventListener("click", myfunction);
     function myfunction() {
