@@ -10,6 +10,12 @@ a {
     font-weight: bold;
 }
 
+iframe {
+    aspect-ratio: 16/9;
+    width: 50%;
+    height: auto;
+}
+
 h1 {
     color: cyan;
     text-align: center;
