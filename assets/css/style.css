@@ -18,8 +18,8 @@
 }
 
 body {
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
     background-color: black;
     min-width: 420;
 }
@@ -44,22 +44,19 @@ iframe {
 }
 
 h1 {
-    font-size: 4.0vw;
+    font-size: 3.0em;
     color: cyan;
     text-align: center;
     padding-bottom: 40px;
 }
-p {
-    font-size: 2vmin;
-}
 
 .txtUP {
-    font-size: 2.5vh;
+    font-size: 1.5em;
     margin-top: -20px;
 }
 
 .titre {
-    font-size: 3.0vh;
+    font-size: 2.0em;
     margin-top: 40px;
     color:darkkhaki;
     font-weight: bold;
@@ -67,42 +64,42 @@ p {
 }
 
 .titre2 {
-    font-size: 3.0vh;
+    font-size: 2.0em;
     margin-top: 80px;
     color: violet;
     font-weight: bold;
 }
 
 .titre3 {
-    font-size: 3.0vh;
+    font-size: 2.0em;
     margin-top: 80px;
     color: yellow;
 }
 
 .motst {
-    font-size: 2.5vh;
+    font-size: 1.5em;
     color: darkkhaki;
     font-weight: bold;
 }
 
 .mots {
-    font-size: 2.5vh;
+    font-size: 1.5em;
     color: blanchedalmond;
 }
 
 .mots2t {
-    font-size: 2.5vh;
+    font-size: 1.5em;
     color: salmon;
     font-weight: bold;
 }
 
 .mots2 {
-    font-size: 2.5vh;
+    font-size: 1.5em;
     color: salmon;
 }
 
 .imp{
-    font-size: 3.0vh;
+    font-size: 2.0em;
     color: red;
     font-weight: bold;
 }
