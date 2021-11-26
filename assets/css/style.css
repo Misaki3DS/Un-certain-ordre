@@ -10,7 +10,7 @@
   
 ::-webkit-scrollbar-thumb {
     background-color: grey;
-    border-radius: 10px;
+    border-radius: 15px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
@@ -44,19 +44,19 @@ iframe {
 }
 
 h1 {
-    font-size: 3.0em;
+    font-size: 2.5em;
     color: cyan;
     text-align: center;
     padding-bottom: 40px;
 }
 
 .txtUP {
-    font-size: 1.5em;
+    font-size: 1.0em;
     margin-top: -20px;
 }
 
 .titre {
-    font-size: 2.0em;
+    font-size: 1.5em;
     margin-top: 40px;
     color:darkkhaki;
     font-weight: bold;
@@ -64,42 +64,42 @@ h1 {
 }
 
 .titre2 {
-    font-size: 2.0em;
+    font-size: 1.5em;
     margin-top: 80px;
     color: violet;
     font-weight: bold;
 }
 
 .titre3 {
-    font-size: 2.0em;
+    font-size: 1.5em;
     margin-top: 80px;
     color: yellow;
 }
 
 .motst {
-    font-size: 1.5em;
+    font-size: 1.0em;
     color: darkkhaki;
     font-weight: bold;
 }
 
 .mots {
-    font-size: 1.5em;
+    font-size: 1.0em;
     color: blanchedalmond;
 }
 
 .mots2t {
-    font-size: 1.5em;
+    font-size: 1.0em;
     color: salmon;
     font-weight: bold;
 }
 
 .mots2 {
-    font-size: 1.5em;
+    font-size: 1.0em;
     color: salmon;
 }
 
 .imp{
-    font-size: 2.0em;
+    font-size: 1.0em;
     color: red;
     font-weight: bold;
 }
@@ -109,11 +109,11 @@ h1 {
     border: none;
     color: black;
     font-weight: bold;
-    padding: 15px 32px;
+    padding: 10px 16px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 1em;
+    font-size: 1.0em;
     margin: 4px 2px;
 }
 .ensemble {
