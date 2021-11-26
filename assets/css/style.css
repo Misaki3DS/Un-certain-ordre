@@ -1,7 +1,26 @@
 @charset "utf-8";
 
+::-webkit-scrollbar {
+    width: 15px;
+}
+  
+::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+  
+::-webkit-scrollbar-thumb {
+    background-color: grey;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
 body {
-    background-color: #444444;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: black;
     min-width: 420;
 }
 
@@ -25,52 +44,78 @@ iframe {
 }
 
 h1 {
+    font-size: 4.0vw;
     color: cyan;
     text-align: center;
     padding-bottom: 40px;
 }
+p {
+    font-size: 2vmin;
+}
 
 .txtUP {
+    font-size: 2.5vh;
     margin-top: -20px;
 }
 
 .titre {
+    font-size: 3.0vh;
     margin-top: 40px;
-    color: black;
+    color:darkkhaki;
     font-weight: bold;
     text-decoration: underline;
 }
 
 .titre2 {
+    font-size: 3.0vh;
     margin-top: 80px;
     color: violet;
     font-weight: bold;
 }
 
 .titre3 {
+    font-size: 3.0vh;
     margin-top: 80px;
     color: yellow;
 }
 
 .motst {
-    color: blanchedalmond;
+    font-size: 2.5vh;
+    color: darkkhaki;
     font-weight: bold;
 }
 
 .mots {
+    font-size: 2.5vh;
     color: blanchedalmond;
 }
 
 .mots2t {
+    font-size: 2.5vh;
     color: salmon;
     font-weight: bold;
 }
 
 .mots2 {
+    font-size: 2.5vh;
     color: salmon;
 }
 
 .imp{
+    font-size: 3.0vh;
     color: red;
     font-weight: bold;
+}
+
+.rounded-pill {
+    background-color:cornflowerblue; color: black;
+    border: none;
+    color: black;
+    font-weight: bold;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
 }
