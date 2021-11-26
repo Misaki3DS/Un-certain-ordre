@@ -117,5 +117,6 @@ h1 {
     margin: 4px 2px;
 }
 .ensemble {
+    white-space: nowrap;
     display: inline;
 }
