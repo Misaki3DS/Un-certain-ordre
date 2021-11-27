@@ -1,4 +1,12 @@
 jQuery(function ($) {
+    document.addEventListener('DOMContentLoaded', function () {
+
+        contain_site.style.setProperty("visibility","visible");
+    
+    });
+});
+
+jQuery(function ($) {
     document.getElementById("toolStart_bt").addEventListener("click", myfunction);
     function myfunction() {
         window.location.href="./assets/html/p1.html";
