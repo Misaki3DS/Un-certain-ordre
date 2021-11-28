@@ -18,8 +18,8 @@
 }
 
 body {
-    margin-left: 15px;
-    margin-right: 15px;
+    margin-left: 1.5em;
+    margin-right: 1.5em;
     background-color: black;
     min-width: 420;
 }
@@ -77,28 +77,37 @@ h1 {
 }
 
 .motst {
+    margin: 0.5em;
+    max-width: 120ch;
     font-size: 1.0em;
     color: darkkhaki;
     font-weight: bold;
 }
 
 .mots {
+    margin: 1em;
+    max-width: 120ch;
     font-size: 1.0em;
     color: blanchedalmond;
 }
 
 .mots2t {
+    margin: 0.5em;
+    max-width: 120ch;
     font-size: 1.0em;
     color: salmon;
     font-weight: bold;
 }
 
 .mots2 {
+    margin: 1em;
+    max-width: 120ch;
     font-size: 1.0em;
     color: salmon;
 }
 
 .imp{
+    margin: 0.5em;
     font-size: 1.0em;
     color: red;
     font-weight: bold;
