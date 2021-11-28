@@ -1,5 +1,9 @@
 @charset "utf-8";
 
+h1 {
+    font-size: 5.9vw;
+   }
+
 ::-webkit-scrollbar {
     width: 15px;
 }
@@ -127,5 +131,4 @@ h1 {
 }
 .ensemble {
     white-space: nowrap;
-    display: inline;
 }
