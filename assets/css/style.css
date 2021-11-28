@@ -132,3 +132,12 @@ h1 {
 .ensemble {
     white-space: nowrap;
 }
+
+.gt {
+    width: 621;
+    height: 881;
+    max-width: 50%;
+    max-height: 50%;
+    float: right;
+    margin-left: 1ch;
+}
