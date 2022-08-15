@@ -1,4 +1,11 @@
 jQuery(function ($) {
+    document.getElementById("Accueil").addEventListener("click", myfunction);
+    function myfunction() {
+        window.location.href="../../index.html";
+    }
+});
+
+jQuery(function ($) {
     document.addEventListener('DOMContentLoaded', function () {
 
         contain_site.style.setProperty("visibility","visible");
