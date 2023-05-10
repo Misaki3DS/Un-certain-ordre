@@ -1,3 +1,33 @@
+// Compter le nombre de clics sur le bouton
+var clickCount = 0;
+
+function showGif() {
+  // Incrémenter le compteur de clics
+  clickCount++;
+  
+  // Créer un élément d'image
+  var img = document.createElement("img");
+  
+  // Définir la source de l'image sur le chemin du GIF
+  img.src = "./assets/img/egg.gif";
+  
+  // Désactiver la transparence pour laisser le fond de la page apparaître derrière l'image
+  img.style.backgroundColor = "transparent";
+  
+  // Ajouter l'image à un conteneur dans la page
+  var container = document.getElementById("gif-container");
+  container.appendChild(img);
+  
+  // Vérifier si le nombre de clics atteint 6
+  if (clickCount === 6) {
+    // Faire quelque chose après 6 clics
+    window.location.href="./assets/html/bonus.html";
+    
+    // Réinitialiser le compteur de clics
+    clickCount = 0;
+  }
+}
+
 jQuery(function ($) {
     document.getElementById("Accueil").addEventListener("click", myfunction);
     function myfunction() {
